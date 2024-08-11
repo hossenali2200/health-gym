@@ -250,7 +250,7 @@ nav ul li a{
 .join-content{
     width: 40%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .join-content h3{
@@ -265,7 +265,7 @@ nav ul li a{
 }
 
 .join-img{
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
 }
 .join-img img{
@@ -287,7 +287,96 @@ nav ul li a{
     
      
 }
- 
+
+/* calculator */
+
+.calculator{
+    margin-top: 60px;
+ }
+
+ .calculator-content{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    color: white;
+ }
+
+ .calculator-content h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+ }
+
+ .calculator-table{
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 7rem;
+    border-radius: 1rem;
+ }
+
+ .calculator-chart h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+ }
+
+ table{
+    width: 50%;
+    border-collapse: collapse;
+ }
+
+ th{
+    border: 1px solid rgb(95, 93, 93);
+    text-align: left;
+    padding: .5rem;
+    color: white;
+ }
+  td{
+    border: 1px solid rgb(95, 93, 93);
+    text-align: left;
+    padding: .5rem;
+    color: rgb(94, 92, 92);
+ }
+
+ .calculator-input h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+ }
+ .calculator-input p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: rgb(94, 92, 92);
+ }
+
+ input, select{
+    padding: 1rem;
+    color: rgb(74, 71, 71);
+    border-radius: .5rem;
+    border: none;
+    font-size: 24px;
+ }
+
+ #select1{
+    width: 310px;
+ }
+ #select2{
+    width: 630px;
+ }
+
+ .calculator-input button{
+    padding: .7rem;
+    margin-top: 1rem;
+    border: none;
+    width: 180px;
+    border-radius: 1rem;
+    background-color: rgb(243, 130, 50);
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+ }
 
 
 /* Mobile responsive */
@@ -328,6 +417,11 @@ nav ul li a{
     font-weight: 800;
     
    
+}
+.hero-content p{
+    
+    width: 90%;
+     
 }
 
 .btn-7{
@@ -392,6 +486,8 @@ nav ul li a{
      
 }
 
+/* join section */
+
 .join-section{
     flex-direction: column;
 }
@@ -402,7 +498,7 @@ nav ul li a{
 }
 
 .join-img{
-    width: 90%;
+    width: 100%;
      
 }
 
@@ -415,6 +511,60 @@ nav ul li a{
     
     margin-top: .5rem;
 }
+
+/* calculator */
+
+.calculator{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.calculator-content{
+    width: 100%;
+}
+
+ 
+
+.calculator-table{
+   width: 90%;
+    
+   grid-template-columns:1fr;
+   padding: 1rem;
+    
+}
+
+ 
+
+table{
+   width: 80%;
+    
+}
+
+input{
+   margin-top: .5rem;
+}
+
+ 
+
+ 
+
+ 
+
+#select1{
+   width: 100%;
+   margin-top: .5rem;
+}
+#select2{
+   width: 100%;
+}
+
+.calculator-input button{
+   
+   width: 100%;
+   
+}
+  
+
 
 
 }
