@@ -378,6 +378,86 @@ nav ul li a{
     color: white;
  }
 
+ /* workout section */
+ .workout{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 4rem;
+    color: white;
+
+ }
+
+ .workout-content{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+ }
+
+ .work-card-content h3{
+    font-size: 32px;
+    font-weight: 600;
+ }
+
+ .work-container{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 6rem;
+ }
+
+ .work-card{
+    width: 100%;
+    background-color: rgb(109, 114, 114);
+    border: 1px solid white;
+    border-radius: .5rem;
+ }
+
+ .work-card:hover{
+    background-color: rgb(242, 176, 105);
+    
+    
+ }
+
+ .work-card img{
+    width: 100%;
+    border-radius: .5rem;
+    
+ }
+
+ .work-card-content{
+    padding: 1rem;
+   
+ }
+
+ .workout-description{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+ }
+
+ .workout-step{
+    border: 1px solid white;
+    border-radius: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+ }
+
+ .workout-step p{
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ .workout-description h4{
+    margin-bottom: 1rem;
+ }
+
+
  /* class section */
 
  .class{
@@ -676,6 +756,27 @@ input{
    width: 100%;
    
 }
+
+/* work out section */
+
+.workout{
+    width: 90%;
+    
+ 
+ }
+ 
+ 
+ .workout-content{
+    width: 100%;
+ }
+ 
+  
+ 
+ .work-container{
+    
+    grid-template-columns:   1fr;
+    
+ }
 
 /* class section */
 
