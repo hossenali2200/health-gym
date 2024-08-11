@@ -712,18 +712,21 @@ nav ul li a{
     font-weight: 500;
     font-size: 24px;
     color: gray;
+     
  }
 
  footer h2{
     color: coral;
-    font-size: 78px;
+    font-size: 48px;
     font-weight: 700;
+    cursor: pointer;
  }
  footer h3{
      
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 1rem;
+    color: white;
  }
 
  hr{
@@ -744,7 +747,6 @@ nav ul li a{
     font-size: 2rem;
     color: gray;
  }
-
 
 /* Mobile responsive */
 
