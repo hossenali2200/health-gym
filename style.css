@@ -571,6 +571,124 @@ nav ul li a{
     transform: translate(-50%, -50%);
  }
 
+ /* price section */
+ .price{
+    background-color: rgb(234, 228, 228);
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    
+ }
+
+ .price-content{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6rem;
+    
+ }
+
+ .price-content h2{
+    font-size: 56px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: .5rem;
+ }
+ .price-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 3rem;
+ }
+
+ .price-content button{
+    padding: 1rem;
+    background-color: coral;
+    border: none;
+    border-radius: 1rem;
+    color: black;
+    font-weight: 700;
+ }
+
+ .price-content button a{
+    text-decoration: none;
+    color: white;
+ }
+
+ .price-content button:hover{
+    rotate: 10deg;
+ }
+
+ .price-card-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    margin-bottom: 3rem;
+ }
+ .price-card{
+    background-color: rgb(67, 72, 72);
+    color: black;
+    padding: 2rem;
+    border-radius: 1rem;
+ }
+
+ .card-1{
+    background-color: rgb(5, 124, 85);
+ }
+
+ .card-3{
+    background-color: rgb(5, 124, 85);
+ }
+ .price-card hr{
+     margin-top: 2rem;
+    width: 100%;
+ }
+
+ .price-card h3{
+    font-size: 24px;
+    font-weight: 600;
+ }
+ .price-card p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: white;
+ }
+
+ .card-header-1{
+    font-size: 36px;
+    font-weight: 700;
+    color: coral;
+ }
+ .card-header-2{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(214, 80, 255);
+ }
+ .card-header-3{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(97, 199, 178);
+ }
+
+ .price-card li{
+    margin-bottom: .5rem;
+    font-size: 24px;
+ }
+
+ .price-card button{
+    background-color: coral;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    width: 200px;
+    margin-top: 2rem;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+ }
+
 
 /* Mobile responsive */
 
