@@ -378,12 +378,63 @@ nav ul li a{
     color: white;
  }
 
+ /* class section */
+
+ .class{
+    margin-top: 4rem;
+    background-image: url('./images/pexels-glebkrs-2628215.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+     
+    
+ }
+
+ .class-content{
+    padding: 8rem;
+     
+ }
+
+ .class-content h4{
+    color: red;
+    font-size: 24px;
+    font-weight: 600;
+ }
+
+ .class-content h2
+{
+    color: rgb(67, 56, 221);
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+ .class-table{
+    width: 60%;
+    border-collapse: collapse;
+ }
+
+ 
+
+ 
+ .class-table td{
+    border: 1px solid rgb(200, 230, 232);
+    text-align: left;
+    padding: .5rem;
+    color: rgb(98, 32, 220);
+    background-color: azure;
+     
+ }
+
+ /* team section */
+
 
 /* Mobile responsive */
 
  
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
 
     /* navbar */
   
@@ -563,6 +614,29 @@ input{
    width: 100%;
    
 }
+
+/* class section */
+
+.class{
+    width: 90%;
+    margin: 2rem auto;
+     
+    
+ }
+ 
+ .class-content{
+    padding: .5rem;
+     
+ }
+ 
+  
+ 
+  
+ 
+ .class-table{
+    width: 90%;
+     
+ }
   
 
 
