@@ -689,6 +689,62 @@ nav ul li a{
     cursor: pointer;
  }
 
+ /* footer section */
+
+ footer{
+    background-color: darkgrey;
+    margin-top: 3rem;
+    border-radius: 1rem;
+ }
+
+ .footer-content{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4rem;
+    gap: 6rem;
+ }
+
+ footer li{
+    list-style: none;
+    margin: 1rem;
+    font-weight: 500;
+    font-size: 24px;
+    color: gray;
+ }
+
+ footer h2{
+    color: coral;
+    font-size: 78px;
+    font-weight: 700;
+ }
+ footer h3{
+     
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+ }
+
+ hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+     
+ }
+
+ .footer-fast{
+    font-size: 400;
+    font-size: 20px;
+    color: gray;
+ }
+ .footer-last{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color: gray;
+ }
+
 
 /* Mobile responsive */
 
@@ -958,6 +1014,47 @@ input{
     font-weight: 400;
     font-size: 14px;
     transform: translate(-50%, -50%);
+ }
+
+ /* price card section */
+
+ .price{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    
+ }
+ 
+ .price-content{
+    width: 90%;
+     text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+    
+ }
+ 
+  
+  
+ 
+ .price-card-content{
+     
+    grid-template-columns:1fr;
+     
+ }
+
+ /* footer section */
+
+ footer{
+    width: 100%;
+    margin: 2rem auto;
+ }
+ 
+ .footer-content{
+    width: 90%;
+    
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    
  }
  
   
